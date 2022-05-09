@@ -8,31 +8,57 @@
   </head>
   <body>
     <script>
-      document.writeln("<h1>Example of for loop.</h1>");
+      document.writeln("<h3>Example of for loop.</h3>");
 
-      document.writeln("<h1>Example 1:  start from zero (0) to five (5).</h1>");
+      document.writeln("<h3>Example 1:  start from zero (0) to five (5).</h3>");
 
       for (var i = 0; i < 6; i++) {
         document.writeln(i);
       }
 
-      document.writeln("<h1>Example 2:  start from any number (5) to 10.</h1>");
+      document.writeln("<h3>Example 2:  start from any number (5) to 10.</h3>");
 
       for (var x = 5; x < 10; x++) {
         document.writeln(x);
       }
-      document.writeln("<h1>Example of while condition</h1>");
+      document.writeln("<h3>Example of while condition</h3>");
       var z = 1;
       while (z <= 10) {
         document.writeln(z);
         z++;
       }
-      document.writeln("<h1>Example of do while condition.</h1>");
+      document.writeln("<h3>Example of do while condition.</h3>");
       var a = 0;
       do {
         document.writeln(a);
         a++;
       } while (a < 10);
+
+
+      document.writeln("<h3>Extra examples of for loop.</h3>");
+
+      for(var b = 0; b >= -10; b--){
+          document.writeln(b);
+      }
+
+      document.writeln("<h3>Example of while loop.</h3>");
+
+      var c = 3;
+      while(c <= 10){
+          document.writeln(c);
+          c++;
+      }
+
+      document.writeln("<h3>Example of do while loop.</h3>");
+
+      var d = 5;
+
+      do{
+          document.writeln(d);
+          d++;
+      }
+      while(d <= 10);
+
     </script>
   </body>
 </html>
